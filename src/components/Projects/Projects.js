@@ -13,10 +13,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Projects </strong>
+          Mis <strong className="purple">Proyectos </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here is the most recent projects i've worked on.
+          Algunos de los proyectos que he trabajado dentro y fuera de la U.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
