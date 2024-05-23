@@ -5,7 +5,8 @@ import {
   SiMacos,
 } from "react-icons/si";
 import { FaGithub, FaNpm } from "react-icons/fa";
-import { DiAtom } from "react-icons/di";
+import { FaGoogleDrive } from "react-icons/fa";
+import { DiOnedrive } from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -14,16 +15,16 @@ function Toolstack() {
         <SiMacos />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiAtom />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaNpm />
+        <FaGoogleDrive />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiOnedrive />
       </Col>
     </Row>
   );

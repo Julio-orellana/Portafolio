@@ -22,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Acerca de<strong className="purple"> mi</strong>
+              Reflexion sobre el primer semestre de la<strong className="purple"> Universidad</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -33,15 +33,16 @@ function About() {
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
+          
         </Row>
         <h1 className="project-heading">
-          Habilidades <strong className="purple">Profesionales </strong>
+          Habilidades que <strong className="purple"> aprendi </strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Herramientas</strong> que uso
+          <strong className="purple">Herramientas</strong> que use
         </h1>
         <Toolstack />
 

@@ -1,44 +1,26 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiCsharp } from "react-icons/si";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiGit,
-} from "react-icons/di";
-import { FaVuejs } from "react-icons/fa";
-import {SiPostgresql,} from "react-icons/si";
-
+import { FaPython } from "react-icons/fa";
+import { SiFlask } from "react-icons/si";
+import { SiPandas } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <FaJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiCsharp />
+        <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <FaPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiPandas />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaVuejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
+      
     </Row>
   );
 }

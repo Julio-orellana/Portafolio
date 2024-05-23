@@ -16,42 +16,39 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              RESUMEN DE LA PRIMERA PARTE DEL PRIMER <span className="purple"> SEMESTRE </span> EN LA U
+              MI CONCEPCION SOBRE <span className="purple">CIENCIAS DE LA COMPUTACION </span>
             </h1>
             <p className="home-about-body">
-              Desde un principio sabia que la carrera de Computer Science era la que me gustaba y sabia que una de mis clases faoritas seria la de programacion
+            Las ciencias de la computación o ciencias de la informática son las que se ocupan del estudio de la computación, información y automatización.
               <br />
-              <br />Cuando inicie tenia muchos problemas comprendiendo temas de 
+              <br />Una de las dudas mas comunes cuando se habla de esta carrera es:
               <i>
-                <b className="purple"> Matematica y Quimica, </b>
-              </i> aunque siguen siendo un problema debido a su grado de dificultad considero que he conseguido adaptarme lo suficiente.
+                <b className="purple"> que hace un cientifico de la computacion </b>
+              </i> y la respuesta es simple: los cientificos de la computacion realizan investigaciones sobre los fundamentos de las ciencias de la 
+              <b className="purple"> computacion. </b> 
               <br />
               <br />
-              Algo que he aprendido mas alla de los temas profesionales que mi carrera enseña es que si quiero obtener buenos resultados debo  &nbsp;
-              <i>
-                <b className="purple">ESFORZARME MAS </b> y 
-                adaptarme al &nbsp;
+              Tambien, los cientificos de computacion, desarrollan soluciones para problemas relacionados con programas de
+              <b className="purple"> hardware </b> y <b className="purple"> software </b>  de computación.
+              <br />
+              <br />
+              Mi futuro en las <b className="purple">Ciencias de la computacion</b> y como <b className="purple">Desarrollador de Software: </b>
+              <br />
+              Aunque las ciencias de la computación son un campo muy amplio, mi enfoque principal es el desarrollo de software ya que es la rama que siempre me ha llamaado la atencion desde pequeño.
+              <br />
+              <br />
+              Lo que hace que el <b className="purple">desarrollo de software </b> sea tan interesante para mi es que es un campo en constante evolución, lo que significa que siempre hay algo nuevo que aprender.
+              <br />
+              <b className="purple">Ademas,</b> siempre me ha llamado la atencion: <i>crear algo que no existe, innovar y comprender como es que funcionan los software a gran escala tales como:</i>
+              <br />
+              <ul>
                 <b className="purple">
-                  Cambio &nbsp;
-                </b> 
-                que esto implica.
-              </i>
-              <br />
-              <br />
-              Lo que me sigo preguntando es: &nbsp;
-              <b className="purple">¿Que hubiera pasado? </b>
-              si antes de empezar el ciclo hubiera dedicado mas
-              <i>
-                <b className="purple">
-                  {" "}
-                  Tiempo
+                <li>Redes Sociales</li>
+                <li>Videojuegos</li>
+                <li>Software de Streaming</li>
+                <li> Sistemas Financieros</li>
                 </b>
-              </i>
-              &nbsp; a estudiar los temas que eran 
-              <i>
-                <b className="purple"> Nuevos </b>
-                para mi.
-              </i>
+              </ul> 
             </p>
           </Col>
           <Col md={4} className="myAvtar">
